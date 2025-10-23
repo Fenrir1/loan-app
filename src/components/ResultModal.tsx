@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
 import { useAppContext } from "../context/AppContext";
-import { formatPhoneForDisplay } from "../utils/phoneMask";
+import { formatPhoneForDisplay } from "../utils/phoneUtils";
 
 interface ResultModalProps {
   show: boolean;
